@@ -2,7 +2,7 @@
   "name": "ankh2revlo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://smokenmirrors-tech.github.io/ankh2revlo",
+  "homepage": "https://ankh2revlo.smokenmirrors.tech",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "json2csv": "^3.7.3",
