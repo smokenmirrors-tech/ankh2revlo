@@ -1,0 +1,28 @@
+{
+  "name": "ankh2revlo",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://smokenmirrors-tech.github.io/ankh2revlo",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "json2csv": "^3.7.3",
+    "react": "^15.4.2",
+    "react-csv": "^1.0.3-RC1",
+    "react-dom": "^15.4.2",
+    "react-fontawesome": "^1.5.0",
+    "sql.js": "^0.4.0",
+    "styled-components": "^1.4.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.9.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  }
+}

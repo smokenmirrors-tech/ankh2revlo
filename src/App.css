@@ -1,0 +1,179 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+a, area, button, [role="button"], input, label, select, summary, textarea {
+  touch-action: manipulation;
+}
+
+input, button, select, textarea {
+  line-height: inherit;
+}
+
+a {
+  font-weight: 700;
+}
+
+a, a:hover, a:visited, a:active {
+  color: #6441A4;
+  text-decoration: none;
+}
+
+.card-group .card {
+  flex: 1 0 0;
+}
+
+.card-group .card + .card {
+  margin-left: 0;
+  border-left: 0;
+}
+
+.p-2 {
+  padding: 1.5rem 1.5rem;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+}
+
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card-inverse {
+  color: #fff;
+}
+
+.card-primary {
+  background-color: #6441A4;
+  border-color: #6441A4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-block {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.text-muted {
+  color: #b0bec5;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1.5rem !important;
+}
+
+.input-group-addon, .input-group-btn, .input-group .form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+}
+
+.px-2 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.mx-2 {
+  margin-right: 1.5rem !important;
+  margin-left: 1.5rem !important;
+}
+
+.mx-1 {
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #6441A4;
+  border-color: #6441A4;
+}
+
+.btn-primary:hover {
+  background-color: #3b2064;
+  color: #fff;
+}
+
+.btn-secondary {
+  color: #6441A4;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #ececec;
+}
+
+.file-control {
+  display: none;
+}
+
+.details-link {
+  display: block;
+}
+
+.affected-users {
+  text-align: left;
+  max-height: 50vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
