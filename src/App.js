@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import sqlJS from 'sql.js';
 import 'font-awesome/css/font-awesome.min.css';
 import FontAwesome from 'react-fontawesome';
 import './App.css';
@@ -65,7 +64,7 @@ class App extends Component {
     let sql = null;
     reader.onload = () => {
       const uints = new Uint8Array(reader.result);
-      const db = new sqlJS.Database(uints);
+      const db = new window.SQL.Database(uints);
       const error = this.state.error;
       sql = db.exec('SELECT Name, Points FROM CurrencyUser');
       if (sql) {
